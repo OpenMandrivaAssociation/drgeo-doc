@@ -43,3 +43,37 @@ rm -rf %{buildroot}
 %dir %{_datadir}/drgeo/help
 %{_datadir}/drgeo/help/C
 
+
+
+%changelog
+* Thu Dec 09 2010 Oden Eriksson <oeriksson@mandriva.com> 1.5-6mdv2011.0
++ Revision: 617901
+- the mass rebuild of 2010.0 packages
+
+* Thu Sep 03 2009 Thierry Vignaud <tv@mandriva.org> 1.5-5mdv2010.0
++ Revision: 428342
+- rebuild
+
+* Thu Jul 24 2008 Thierry Vignaud <tv@mandriva.org> 1.5-4mdv2009.0
++ Revision: 244545
+- rebuild
+
+* Wed Jan 02 2008 Olivier Blin <oblin@mandriva.com> 1.5-2mdv2008.1
++ Revision: 140722
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Thu Aug 23 2007 Thierry Vignaud <tv@mandriva.org> 1.5-2mdv2008.0
++ Revision: 70205
+- use %%mkrel
+
+
+* Sun Dec 26 2004 Abel Cheung <deaddog@mandrake.org> 1.5-1mdk
+- New version
+- Generate file list dynamically
+
+* Wed Nov 26 2003 Abel Cheung <deaddog@deaddog.org> 1.4-1mdk
+- First Mandrake package
+
