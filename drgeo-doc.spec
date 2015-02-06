@@ -1,5 +1,5 @@
 %define	version	1.5
-%define release	%mkrel 6
+%define release	7
 
 Summary:	Drgeo documentation
 Name:		drgeo-doc
