@@ -7,7 +7,7 @@ Version:	%{version}
 Release:	%{release}
 License:	GFDL
 Group:		Books/Other
-URL:		http://www.ofset.org/drgeo/
+URL:		https://www.ofset.org/drgeo/
 Source:		http://prdownloads.sourceforge.net/ofset/%{name}-%{version}.tar.bz2
 Buildroot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch:	noarch
